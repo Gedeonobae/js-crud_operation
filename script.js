@@ -19,6 +19,7 @@ function readFormData(){
     return formData;
 }
 
+
 // Create operation
 function insertNewRecord(data){
     let table = document.getElementById("user-registration-management").getElementsByTagName('tbody')[0];
